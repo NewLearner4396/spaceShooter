@@ -1,0 +1,10 @@
+^C:\PROJECTS\CPP\SPACESHOOTER\CMAKELISTS.TXT
+setlocal
+C:\Programmer\CMake\bin\cmake.exe -SC:/Projects/cpp/spaceShooter -BC:/Projects/cpp/spaceShooter/build/Debug --check-stamp-file C:/Projects/cpp/spaceShooter/build/Debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

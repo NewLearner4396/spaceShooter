@@ -1,0 +1,3 @@
+C:/Projects/cpp/spaceShooter/build/Debug/CMakeFiles/spaceShooter-Windows-Debug.dir
+C:/Projects/cpp/spaceShooter/build/Debug/CMakeFiles/ALL_BUILD.dir
+C:/Projects/cpp/spaceShooter/build/Debug/CMakeFiles/ZERO_CHECK.dir
